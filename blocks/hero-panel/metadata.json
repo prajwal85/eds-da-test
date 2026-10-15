@@ -1,0 +1,20 @@
+{
+  "variantName": "hero-panel",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light text panel over photo",
+    "density": "minimal",
+    "purpose": "page-intro-hero",
+    "imagePattern": "full-bleed-background",
+    "structure": "image + heading + paragraph"
+  },
+  "contentPattern": "Single hero: one full-bleed background image row, one text row with H2 heading and paragraph rendered inside a white panel overlapping the bottom-left of the image",
+  "usage": {
+    "pagesUsing": ["https://wknd.site/us/en/adventures.html"],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-15"
+  },
+  "options": [],
+  "memberVariantIds": []
+}

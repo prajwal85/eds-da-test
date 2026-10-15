@@ -1,0 +1,20 @@
+{
+  "variantName": "tabs-adventures",
+  "baseBlock": "tabs",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "dense",
+    "purpose": "filterable-listing",
+    "imagePattern": "thumbnail-grid",
+    "structure": "tab labels + 4-col grid of image + title + description"
+  },
+  "contentPattern": "Tabs: one row per tab; cell 1 = label, cell 2 = unordered list of items (linked image, linked title, description) rendered as a 4-column card grid",
+  "usage": {
+    "pagesUsing": ["https://wknd.site/us/en/adventures.html"],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-15"
+  },
+  "options": [],
+  "memberVariantIds": []
+}

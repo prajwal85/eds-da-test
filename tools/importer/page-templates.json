@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "projectType": "da"
+  },
+  "templates": [
+    {
+      "name": "adventures",
+      "urls": [
+        "https://wknd.site/us/en/adventures.html"
+      ],
+      "representativeUrl": "https://wknd.site/us/en/adventures.html",
+      "description": "Adventures listing page: page title, hero teaser with overlapping text panel, and a tabbed grid of adventure cards",
+      "urlPattern": "/us/en/*",
+      "blocks": [
+        {
+          "name": "hero-panel",
+          "instances": [
+            ".teaser.cmp-teaser--hero"
+          ]
+        },
+        {
+          "name": "tabs-adventures",
+          "instances": [
+            ".tabs.panelcontainer"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "1",
+          "name": "page-title",
+          "selector": [
+            "main > .cmp-container > .aem-Grid > main.cmp-layout-container--fixed:nth-of-type(1)"
+          ],
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "h1"
+          ]
+        },
+        {
+          "id": "2",
+          "name": "hero",
+          "selector": [
+            ".teaser.cmp-teaser--hero"
+          ],
+          "style": null,
+          "blocks": [
+            "hero-panel"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "3",
+          "name": "current-adventures",
+          "selector": [
+            "main > .cmp-container > .aem-Grid > main.cmp-layout-container--fixed:nth-of-type(2)"
+          ],
+          "style": null,
+          "blocks": [
+            "tabs-adventures"
+          ],
+          "defaultContent": [
+            ".title.cmp-title--underline h2"
+          ]
+        }
+      ]
+    }
+  ]
+}

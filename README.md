@@ -27,7 +27,9 @@ The existing site header and footer are retained.
   Preview ingests them into responsive Media Bus images.
 - Public Sans and Nunito Sans are self-hosted with their SIL Open Font
   Licenses in `fonts/`. Nunito Sans is the approved open-license substitute
-  for the source's commercial Halis GR headings.
+  for the source's commercial Halis GR headings. Size-adjusted local fallbacks
+  reduce font-swap layout shifts; the graduate hero image loads eagerly with
+  high fetch priority.
 - The seven program icons are Font Awesome Free 7.0.0 SVGs; attribution and
   license are retained in `icons/graduate-fontawesome-license.txt`.
 - Unmigrated program/admissions pages link back to the source site.

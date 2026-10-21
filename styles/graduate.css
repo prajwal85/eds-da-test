@@ -46,9 +46,21 @@
   src: url("../fonts/graduate-nunito-sans-700.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Graduate Public Sans Fallback";
+  src: local("Arial");
+  size-adjust: 103%;
+}
+
+@font-face {
+  font-family: "Graduate Nunito Sans Fallback";
+  src: local("Arial");
+  size-adjust: 97.6%;
+}
+
 .graduate main {
-  --body-font-family: "Graduate Public Sans", arial, sans-serif;
-  --heading-font-family: "Graduate Nunito Sans", arial, sans-serif;
+  --body-font-family: "Graduate Public Sans", "Graduate Public Sans Fallback", arial, sans-serif;
+  --heading-font-family: "Graduate Nunito Sans", "Graduate Nunito Sans Fallback", arial, sans-serif;
   --link-color: #005481;
   --link-hover-color: #501214;
   --graduate-maroon: #501214;

@@ -1,0 +1,42 @@
+.table {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--body-font-size-s);
+}
+
+.table th,
+.table td {
+  padding: 0.5em;
+  text-align: left;
+}
+
+.table th {
+  font-weight: 700;
+}
+
+.table tr {
+  border-bottom: 1px solid #dadada;
+}
+
+.table th p,
+.table td p {
+  margin: 0;
+}
+
+.table td p + p {
+  margin-top: 0.25em;
+}
+
+.table.striped tbody tr:nth-child(odd) {
+  background-color: var(--light-color);
+}
+
+.table.bordered th,
+.table.bordered td {
+  border: 1px solid #dadada;
+}
